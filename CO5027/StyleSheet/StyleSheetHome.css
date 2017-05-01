@@ -1,0 +1,96 @@
+﻿body {
+    background-image: url('../Image/bg1.jpg');    
+background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+}
+
+.space{
+    padding: 2%;
+}
+
+#map {
+height: 500px;
+width: 50%;
+
+margin:auto;
+}
+
+ @media all and (min-width: 50px) {  body  {   font-size:0.1em;  } }
+    @media all and (min-width: 100px) {  body  {   font-size:0.2em;  } }
+    @media all and (min-width: 200px) {  body  {   font-size:0.4em;  } }
+    @media all and (min-width: 300px) {  body  {   font-size:0.6em;  } }
+    @media all and (min-width: 400px) {  body  {   font-size:0.8em;  } }
+	@media all and (min-width: 500px) {  body  {   font-size:1.0em;  } }
+	@media all and (min-width: 600px) {  body  {   font-size:1.2em;  } }
+	@media all and (min-width: 700px) {  body  {   font-size:1.4em;  } }
+	@media all and (min-width: 800px) {  body  {   font-size:1.6em;  } }
+	@media all and (min-width: 900px) {  body  {   font-size:1.8em;  } }
+	@media all and (min-width: 1000px) {  body  { font-size:2.0em;  } }
+	@media all and (min-width: 1100px) {  body  { font-size:2.2em;  } }
+	@media all and (min-width: 1200px) {  body  { font-size:2.4em;  } }
+	@media all and (min-width: 1300px) {  body  { font-size:2.6em;  } }
+	@media all and (min-width: 1400px) {  body  { font-size:2.8em;  } }
+	@media all and (min-width: 1500px) {  body  { font-size:3.0em;  } }
+	@media all and (min-width: 1500px) {  body  { font-size:3.2em;  } }
+	@media all and (min-width: 1600px) {  body  { font-size:3.4em;  } }
+	@media all and (min-width: 1700px) {  body  { font-size:3.6em;  } }
+
+#wrapper {
+    background-color:white;
+    text-align: center;
+}
+
+.footer{
+    background-color:white;
+    text-align:center;
+    width:100%;
+    bottom:0px;
+    font-size: 50%;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+}
+
+
+
+.contacttable{
+    font-size:50%;
+    margin: auto;
+    background-color:white;
+    width: 50%;
+}
+
+#wrapperaboutus
+{
+    background-color: white;
+}
+
+.wrapper1{
+    text-align:center;
+}
+
+.tablehome{
+    width:100%;
+}
+
+.homepanel{
+    background-color: white;
+    width: 30%;;
+}
+
+.moviestable{
+    align-content: center;
+    margin:auto;
+}
+
+.defaultmovietable{
+    font-size: 50%;
+    float:left;
+    
+
+}
+
