@@ -1,0 +1,181 @@
+﻿body 
+{
+
+}
+
+#wrap 
+{
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid #00ff7f;
+    width: 800px;
+    background-image: url(../Image/bg.jpg);
+}
+
+#nav 
+{
+    list-style: none;    
+}
+
+#nav ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    width: auto;
+        
+}
+
+#nav li {
+    float: left;
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    position: relative;
+}
+
+#nav li ul li 
+{
+    padding-left: 10px;
+    border: 3px solid #008000;   
+}
+
+#nav a:link, #nav a:active, #nav a:visited 
+{
+    display: block;
+    color: #00ff7f;
+    text-decoration: none;
+}
+
+#nav a:hover
+{
+    color: #00ff7f;    
+}
+#banner 
+{
+    width: 280px;
+    height: 110px;   
+    border: 3px solid #008000;
+    background-repeat: no-repeat;
+    background-image: url(../Image/logo.jpg);
+}
+#navigation
+{
+    width: 750px;
+    text-shadow: 0.1em 0.1em #333;
+    height: 60px;
+    border: 3px solid #008000;
+    margin-top: 20px;
+}
+#placecontent 
+{
+    padding: 10px;
+    border: 3px solid #00ff7f;
+    float: left;
+    width: 750px;
+    margin: 20px 0 20px 0;
+ 
+}
+#footer 
+{
+
+    text-shadow: 0.1em 0.1em #333;
+    color: #00ff7f;
+    text-align: center;    clear: both;
+    width: auto;
+    margin-top: 20px;
+    height: 40px;    
+}
+
+.contacttable{
+    font-size:100%;
+    margin: auto;
+    background-color:#00ff7f;
+    width: 70%;
+}
+
+.productTable
+{
+  width: 750px;
+  height: 250px;
+  margin: 10px 10px 10px 0;
+  border: 3px solid white;
+  border-radius: 10px;
+  
+    font-weight: bold;
+}
+
+.productTable tr th, .productTable tr td
+{
+    text-align: left;
+    padding: 0px 5px 0 5px;
+}
+
+.productTable img
+{
+    padding: 0px 10px 10px 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.ProductsName
+{
+    margin: 0px 5px 5px 0px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 18px;
+    color: gray;
+
+}
+
+.ProductsPrice
+{
+    margin: 0px 5px 5px 0px;
+    width: 150px;
+    color: orange;
+}
+
+.ProductsImage
+{
+    width: 150px;
+    height: 150px;
+    vertical-align: central;
+    padding: 10px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    
+}
+
+
+
+#ctl00_ContentPlaceHolder1_pnlProducts div 
+{
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+.orderTable
+{
+    width: 500px;
+    height: auto;
+    margin: 10px;
+}
+
+.orderTable td
+{
+    border: 1px solid;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+}
+
+#ContentPlaceHolder1_pnlProducts div 
+{
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+

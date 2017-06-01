@@ -1,0 +1,96 @@
+﻿body 
+{
+
+}
+
+#wrap 
+{
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid #00ff7f;
+    width: 800px;
+    background-image: url(../Image/bg.jpg);
+}
+
+#nav 
+{
+    list-style: none;    
+}
+
+#nav ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    width: auto;
+        
+}
+
+#nav li {
+    float: left;
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    position: relative;
+}
+
+#nav li ul li 
+{
+    padding-left: 10px;
+    border: 3px solid #008000;   
+}
+
+#nav a:link, #nav a:active, #nav a:visited 
+{
+    display: block;
+    color: #00ff7f;
+    text-decoration: none;
+}
+
+#nav a:hover
+{
+    color: #00ff7f;    
+}
+#banner 
+{
+    width: 280px;
+    height: 110px;   
+    border: 3px solid #008000;
+    background-repeat: no-repeat;
+    background-image: url(../Image/logo.jpg);
+}
+#navigation
+{
+    width: 750px;
+    text-shadow: 0.1em 0.1em #333;
+    height: 60px;
+    border: 3px solid #008000;
+    margin-top: 20px;
+}
+#placecontent 
+{
+    padding: 10px;
+    border: 3px solid #00ff7f;
+    float: left;
+    width: 750px;
+    margin: 20px 0 20px 0;
+ 
+}
+#footer 
+{
+
+    text-shadow: 0.1em 0.1em #333;
+    color: #00ff7f;
+    text-align: center;    clear: both;
+    width: auto;
+    margin-top: 20px;
+    height: 40px;    
+}
+
+.contacttable{
+    font-size:100%;
+    margin: auto;
+    background-color:#00ff7f;
+    width: 70%;
+}
